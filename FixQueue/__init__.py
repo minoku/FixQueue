@@ -13,4 +13,9 @@ class FixQueue(list) :
 
 	def clear(self) :
 		del self[:]
+
+	def pop(self, index=0) :
+		rvalue = self[index]
+		del self[index]
+		return rvalue
  

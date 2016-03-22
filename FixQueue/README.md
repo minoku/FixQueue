@@ -1,12 +1,21 @@
-# FixQueue
-Simplest Queue module to make a fixed size queue on your platform and apps.
-You just need to use FixQueue-based queues like normal list-based objects.
+========
+FixQueue
+========
 
-# Install
+Simplest Queue module to make a fixed size queue on your platform and apps.
+
+You just need to use FixQueue-based queues.
+
+
+=======
+Install
+=======
 pip install fixqueue
 
-# Basic Example
 
+=============
+Basic Example
+=============
 	from FixQueue import FixQueue
 
 	if __name__ == "__main__" :
@@ -21,7 +30,7 @@ pip install fixqueue
 	
 		print (fq) # ['b', 'c']
 	
-		print (fq.pop()) # c
+		print (fq.pop()) # b
 	
 		print (fq) # ['b']
 

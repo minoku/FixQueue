@@ -2,7 +2,7 @@ from distutils.core import setup
 
 setup (
 	name		= "FixQueue",
-	version		= "0.1.0",
+	version		= "0.1.1",
 	packages 	= ['FixQueue'],
 	author		= 'Mino Ku',
 	author_email	= 'happykus@gmail.com',

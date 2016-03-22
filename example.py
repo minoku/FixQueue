@@ -1,6 +1,6 @@
 #! /usr/bin/python
 
-from FixQueue import FixQueue
+import FixQueue
 
 if __name__ == "__main__" :
 	fq = FixQueue(2) # 2 means queue size

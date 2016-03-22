@@ -22,6 +22,7 @@ Basic Example
 		fq = FixQueue(2) # 2 means queue size
 	
 		fq.append('a')
+		
 		fq.append('b')
 	
 		print (fq) # ['a', 'b']

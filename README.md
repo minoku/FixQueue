@@ -2,9 +2,8 @@
 FixQueue
 ========
 
-Simplest Queue module to make a fixed size queue on your platform and apps.
-
-You just need to use FixQueue-based queues.
+Simplest Queue package to make a fixed size queue on your platform and apps. 
+You just need to import and use FixQueue-based queues.
 
 
 =======
